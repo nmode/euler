@@ -1,0 +1,10 @@
+# Normalize Git files.
+.gitattributes text
+.gitignore     text
+
+# Normalize LICENSE and READMEs.
+LICENSE   text
+README.md text
+
+# Normalize Python source files.
+*.py text diff=python
